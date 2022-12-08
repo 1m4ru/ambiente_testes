@@ -10,136 +10,26 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/ambiente_testes/Bibliotecas_2021_1/commons-exec-1.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Bibliotecas_2021_1/commons-exec-1.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Bibliotecas_2021_1/cucumber-core-4.3.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Bibliotecas_2021_1/cucumber-java-4.3.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Bibliotecas_2021_1/cucumber-expressions-6.2.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Bibliotecas_2021_1/cucumber-junit-4.3.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Bibliotecas_2021_1/datatable-1.1.12.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Bibliotecas_2021_1/datatable-dependencies-1.1.12.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Bibliotecas_2021_1/gherkin-5.1.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Bibliotecas_2021_1/guava-25.0-jre.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Bibliotecas_2021_1/hamcrest-all-1.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Bibliotecas_2021_1/junit-4.12.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Bibliotecas_2021_1/okhttp-3.11.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Bibliotecas_2021_1/okio-1.14.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Bibliotecas_2021_1/selenium-server-standalone-3.141.59.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Bibliotecas_2021_1/tag-expressions-1.1.1.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/ambiente_testes/Bibliotecas_2021_1/cucumber-core-4.3.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/ambiente_testes/Bibliotecas_2021_1/cucumber-expressions-6.2.2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/ambiente_testes/Bibliotecas_2021_1/cucumber-java-4.3.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/ambiente_testes/Bibliotecas_2021_1/cucumber-junit-4.3.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/ambiente_testes/Bibliotecas_2021_1/datatable-1.1.12.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/ambiente_testes/Bibliotecas_2021_1/datatable-dependencies-1.1.12.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/ambiente_testes/Bibliotecas_2021_1/gherkin-5.1.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/ambiente_testes/Bibliotecas_2021_1/guava-25.0-jre.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/ambiente_testes/Bibliotecas_2021_1/hamcrest-all-1.3.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/ambiente_testes/Bibliotecas_2021_1/junit-4.12.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/ambiente_testes/Bibliotecas_2021_1/okhttp-3.11.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/ambiente_testes/Bibliotecas_2021_1/okio-1.14.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/ambiente_testes/Bibliotecas_2021_1/selenium-server-standalone-3.141.59.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/ambiente_testes/Bibliotecas_2021_1/tag-expressions-1.1.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/src" />
+        </SOURCES>
       </library>
     </orderEntry>
   </component>

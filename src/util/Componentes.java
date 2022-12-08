@@ -29,19 +29,18 @@ public class Componentes {
         driver.findElement(By.id("elementosForm:nome")).sendKeys("Maruan");
     }
 
-    public void validaTextField(){
-        Assert.assertEquals("Maruan",driver.findElement(By.id("elementosForm:nome")).getAttribute("value"));
-
+    public void validaTextField() {
+        Assert.assertEquals("Nome: Maruan", driver.findElement(By.id("descNome")).getText());
     }
+
     public void testeTextArea(){
         driver.findElement(By.id("elementosForm:sobrenome")).sendKeys("Moussa");
     }
 
     public void validaTextArea(){
-        Assert.assertEquals("Moussa",driver.findElement(By.id("elementosForm:sugestoes")).getAttribute("value"));
+        Assert.assertEquals("Sobrenome: Moussa",driver.findElement(By.id("descSobrenome")).getText());
 
     }
-
 
     public void clicarElementoRadioButton(){
         driver.findElement(By.id("elementosForm:sexo:0")).click();
@@ -50,14 +49,12 @@ public class Componentes {
         driver.findElement(By.id("elementosForm:comidaFavorita:1")).click();
     }
 
-
-
     public void validaElementoRadioButton(){
-        Assert.assertTrue(driver.findElement(By.id("elementosForm:sexo:0")).isSelected());
+        Assert.assertEquals("Sexo: Masculino", driver.findElement(By.id("descSexo")).getText());
     }
 
     public void validaElementoCheckbox(){
-        Assert.assertTrue(driver.findElement(By.id("elementosForm:comidaFavorita:1")).isSelected());
+        Assert.assertEquals("Comida: Frango", driver.findElement(By.id("descComida")).getText());
     }
 
     public void selecionarValorCombo(){
@@ -67,9 +64,8 @@ public class Componentes {
     }
 
     public void validaValorCombo(){
-        Assert.assertEquals("Superior", combo.getFirstSelectedOption().getText());
+        Assert.assertEquals("Escolaridade: superior", driver.findElement(By.id("descEscolaridade")).getText());
     }
-
     public void selecionarCombobox(){
         WebElement elemento = driver.findElement(By.id("elementosForm:esportes"));
         combo = new Select(elemento);
@@ -77,8 +73,7 @@ public class Componentes {
     }
 
     public void validarQuantidadeCombobox(){
-        List<WebElement> options = combo.getOptions();
-        Assert.assertEquals(8, options.size());
+        Assert.assertEquals("Esportes: Natacao", driver.findElement(By.id("descEsportes")).getText());
     }
 
     public void selecionarBotaoCadastrar(){
@@ -87,11 +82,11 @@ public class Componentes {
     }
 
     public void validaBotaoCadastrar(){
-        Assert.assertEquals("Cadastrado com Sucesso", botao.getAttribute("value"));
+        Assert.assertEquals("Cadastrar", botao.getAttribute("value"));
     }
 
     public void testarCampoNomeObrigatorio(){
-        driver.findElement(By.id("elementosForm:nome")).sendKeys();
+        driver.findElement(By.id("elementosForm:nome")).sendKeys("");
     }
 
     public void validaCampoNomeObrigatorio(){
@@ -100,7 +95,7 @@ public class Componentes {
     }
 
     public void testarSobrenomeObrigatorio(){
-            driver.findElement(By.id("elementosForm:sobrenome")).sendKeys();
+        driver.findElement(By.id("elementosForm:sobrenome")).sendKeys("");
     }
 
     public void validaSobrenomeObrigatorio(){
@@ -108,9 +103,7 @@ public class Componentes {
         Assert.assertEquals("Sobrenome eh obrigatorio", alert.getText());
     }
 
-    public void testarSexoObrigatório(){
-        driver.findElement(By.id("")).click();
-    }
+
 
     public void validaCampoSexoObrigatorio(){
         Alert alert = driver.switchTo().alert();
@@ -120,6 +113,7 @@ public class Componentes {
         driver.quit();
 
     }
+
 
 
 }
